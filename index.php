@@ -1,6 +1,6 @@
 <?php
        $domOBJ = new DOMDocument();
-       $domOBJ->load("https://github.com/LanceVaflor/xmlact1/blob/master/rss.php");//XML page URL
+       $domOBJ->load("https://xmlact1vaflor.herokuapp.com/rss.php");//XML page URL
 
        $content = $domOBJ->getElementsByTagName("Monster");
     
