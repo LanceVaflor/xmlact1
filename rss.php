@@ -17,7 +17,7 @@
         $rssfeed .= '<Immunity>' . $Immunity . '</Immunity>';
         $rssfeed .= '<Tactics>' . $Tactics . '</Tactics>';
         $rssfeed .= '<Occurence>' . $Occurence . '</Occurence>';
-        $rssfeed .= '</MonsterID>';
+        $rssfeed .= '</Monsters>';
     }
 
     $rssfeed .= '</channel>';
