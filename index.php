@@ -2,7 +2,7 @@
        $domOBJ = new DOMDocument();
        $domOBJ->load("https://xmlact1vaflor.herokuapp.com/rss.php");//XML page URL
 
-       $content = $domOBJ->getElementsByTagName("Monster");
+       $content = $domOBJ->getElementsByTagName("Monsters");
 ?>
     
        
