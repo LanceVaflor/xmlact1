@@ -11,9 +11,9 @@
     while($row=mysqli_fetch_assoc($query)) {
         extract($row);
 
-        $rssfeed .= '<MonsterID>';
+        $rssfeed .= '<Monsters>';
         $rssfeed .= '<Monster>' . $Monster . '</Monster>';
-        $rssfeed .= '<Classification>' .$Classification . '</Classification>';
+        $rssfeed .= '<Classification>' . $Classification . '</Classification>';
         $rssfeed .= '<Immunity>' . $Immunity . '</Immunity>';
         $rssfeed .= '<Tactics>' . $Tactics . '</Tactics>';
         $rssfeed .= '<Occurence>' . $Occurence . '</Occurence>';
